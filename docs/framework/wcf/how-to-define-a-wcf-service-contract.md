@@ -22,7 +22,7 @@ ms.locfileid: "33809220"
   
 1.  打开[!INCLUDE[vs_current_long](../../../includes/vs-current-long-md.md)]以管理员身份中右键单击程序**启动**菜单并选择**以管理员身份运行**。  
   
-2.  通过单击创建 WCF 服务库项目**文件**菜单并选择**新建**，**项目**。 在**新项目**对话框中，在对话框的左侧展开**Visual C#** 对于 C# 项目或**其他语言**然后**Visual Basic** Visual Basic 项目。 在所选的语言下选择**WCF**并将在对话框的中心部分上显示的项目模板列表。 选择**WCF 服务库**，和类型`GettingStartedLib`中**名称**文本框中和`GettingStarted`中**解决方案名称**对话框底部的文本框。  
+2.  通过单击创建 WCF 服务库项目**文件**菜单并选择**新建**，**项目**。 在**新项目**对话框中，在对话框的左侧展开**Visual C#** 对于 C# 项目或**其他语言**然后**Visual Basic** Visual Basic 项目。 在所选的语言下选择**WCF**并将在对话框的中心部分上显示的项目模板列表。 选择**WCF 服务库**，并且在**名称**文本框中输入`GettingStartedLib`，并且在对话框底部的**解决方案名称**文本框中输入`GettingStarted`。  
   
 3.  Visual Studio 将创建包含以下 3 个文件的项目：IService1.cs（或 IService1.vb）、Service1.cs（或 Service1.vb）和 App.config。IService1 文件包含默认的服务协定。  Service1 文件包含服务协定的默认实现。 App.config 文件包含 Visual Studio WCF 服务主机加载默认服务所需的配置。 有关 WCF 服务主机工具的详细信息，请参阅[WCF 服务主机 (WcfSvcHost.exe)](../../../docs/framework/wcf/wcf-service-host-wcfsvchost-exe.md)  
   
